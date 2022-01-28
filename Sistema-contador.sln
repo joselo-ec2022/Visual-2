@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelo", "Sistema-contador\Modelo.csproj", "{B19984C4-5265-488A-942F-D41FD6B02250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consola", "Consola\Consola.csproj", "{E5BDF5A2-2C15-41A5-BC36-95091D56B9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consola", "Consola\Consola.csproj", "{E5BDF5A2-2C15-41A5-BC36-95091D56B9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDB", "ModeloDB\ModeloDB.csproj", "{2C163BF6-9FCA-4D4E-9AF7-6B2C7C3E589F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModeloDB", "ModeloDB\ModeloDB.csproj", "{2C163BF6-9FCA-4D4E-9AF7-6B2C7C3E589F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSGT", "WebSGT\WebSGT.csproj", "{D75986E4-D599-4A63-AC73-5127072C563B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2C163BF6-9FCA-4D4E-9AF7-6B2C7C3E589F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C163BF6-9FCA-4D4E-9AF7-6B2C7C3E589F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C163BF6-9FCA-4D4E-9AF7-6B2C7C3E589F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75986E4-D599-4A63-AC73-5127072C563B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75986E4-D599-4A63-AC73-5127072C563B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75986E4-D599-4A63-AC73-5127072C563B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75986E4-D599-4A63-AC73-5127072C563B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

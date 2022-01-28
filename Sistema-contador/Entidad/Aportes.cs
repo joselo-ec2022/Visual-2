@@ -12,9 +12,11 @@ namespace Sistema_contador.Entidad
         public String total_decimo_dado { get; set; }
         public int tiempo_aportado { get; set; }
 
-        public Nomina Nomina { get; set; }
-        public int NominaId { get; set; }
+        public Sueldo_final Sueldo_final { get; set; }
+        public int Sueldo_finalId { get; set; }
 
-        public List<Nomina> NominaList { get; set; }
+
+
+
     }
 }

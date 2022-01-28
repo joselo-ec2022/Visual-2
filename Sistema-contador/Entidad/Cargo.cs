@@ -12,10 +12,15 @@ namespace Sistema_contador.Entidad
         public String tipo_funcion { get; set; }
 
         //relacion con empleado
-        public List<Empleado> Trabajadores { get; set; }
 
-        public Empleado Empleado { get; set; }
+        public List<Empleado> Empleado { get; set; }
 
-        public int EmpleadoId { get; set; }
+
+        // relacion con nomina
+
+        public Nomina Nomina { get; set; }
+        public int NominaId { get; set; }
+
+
     }
 }

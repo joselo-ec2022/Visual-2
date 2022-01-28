@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sistema_contador.Entidad.Aportes" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidad\Aportes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_contador.Entidad.Cargo">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAQAAAAAAABEAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entidad\Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_contador.Entidad.Empleado">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAGBAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entidad\Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_contador.Entidad.Impuesto" Collapsed="true">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidad\Impuesto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_contador.Entidad.Sueldo" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidad\Sueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_contador.Entidad.Sueldo_final" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidad\Sueldo_final.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

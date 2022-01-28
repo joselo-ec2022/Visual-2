@@ -40,9 +40,9 @@ namespace Consola
             //nomina
             Nomina nomina_analistas = new Nomina()
             {
-                Empleado = Pedro,
-                Cargo = Analista,
-                Sueldo = Sueldo_analista
+                //Empleado = Pedro,
+                //Cargo = Analista,
+               // Sueldo = Sueldo_analista
 
             };
 
@@ -52,8 +52,7 @@ namespace Consola
             {
                 aporte_patronal_dado = 50.40,
                 aporte_personal_dado = 50.90,
-                tiempo_aportado = 1,
-                NominaId = 1
+                tiempo_aportado = 1
 
             };
 
@@ -72,7 +71,7 @@ namespace Consola
 
 
             ListadoDB db = new ListadoDB();
-            db.Nomina.Add(nomina_analistas);
+            db.nominas.Add(nomina_analistas);
             db.SaveChanges();
 
         }

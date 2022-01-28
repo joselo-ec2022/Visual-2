@@ -1,0 +1,72 @@
+﻿
+@using Modelo.Entidades
+@model IEnumerable<Empleado>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<p> Se presentan los usuarios presentes en el sistema</p>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-6">
+            <h3>Lista de usuarios</h3>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <table>
+            <thead>
+                <tr>
+                    <td>Id: </td>
+                    <td>Nombres </td>
+                    <td>Apellidos </td>
+                    <td>Cedula </td>
+                    <td>Celular </td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Empleado empleado in Model)
+
+                {
+
+                    <tr>
+                        <td>@empleado.EmpleadoId</td>
+                        <td>@empleado.Nombres</td>
+                        <td>@empleado.Apellidos</td>
+                        <td>@empleado.Telefono</td>
+                        <td>@empleado.Cedula</td>
+                    
+                        <td>
+                            <a class="btn btn-warning"
+                             asp.controller="Empleados" asp-action="Edit" asp-route-id="@empleado.EmpleadoId">   
+                                Editar
+                            </a>
+                           
+                            <a class="btn btn-warning"
+                               asp.controller="Empleados" asp-action="Delete" asp-route-id="@empleado.EmpleadoId">
+                                Borrar
+                            </a>
+                        </td>
+                    
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+    
+</div>
+
+
+
+
+

@@ -15,12 +15,13 @@ namespace Sistema_contador.Entidad
         public double sueldo_anual_final { get; set; }
         public double total_decimo_recibido { get; set; }
 
-
+        // referencia con empleado
         public int EmpleadoId { get; set; }
         public Empleado Empleado { get; set; }
 
-        public int AportesId { get; set; }
-        public Aportes Aportes { get; set; }
+        // referencia con aportes
+        public List<Aportes> Aportes { get; set; }
+
 
     }
 }

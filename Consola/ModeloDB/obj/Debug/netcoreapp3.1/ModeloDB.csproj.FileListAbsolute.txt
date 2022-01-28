@@ -1,0 +1,16 @@
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\ModeloDB.deps.json
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\ModeloDB.runtimeconfig.json
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\ModeloDB.runtimeconfig.dev.json
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\ModeloDB.dll
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\ModeloDB.pdb
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.csproj.AssemblyReference.cache
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.AssemblyInfoInputs.cache
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.AssemblyInfo.cs
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.csproj.CoreCompileInputs.cache
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.csproj.CopyComplete
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.dll
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.pdb
+C:\Users\josel\source\repos\Sistema-contador\ModeloDB\obj\Debug\netcoreapp3.1\ModeloDB.genruntimeconfig.cache

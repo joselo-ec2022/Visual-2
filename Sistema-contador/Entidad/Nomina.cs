@@ -8,21 +8,25 @@ namespace Sistema_contador.Entidad
     {
         public int NominaId { get; set; }
 
-        public int EmpleadoId { get; set; }
-        public Empleado Empleado { get; set; }
+        //public int EmpleadoId { get; set; }
+        //public Empleado Empleado { get; set; }
 
         //--------------------------------------
 
-        public Cargo CargoId { get; set; }
-        public Cargo Cargo { get; set; }
+        // referencia a cargo 1-1
+      //  public Cargo Cargo { get; set; }
 
         //--------------------------------------
 
-        public Sueldo SueldoId { get; set; }
-        public Sueldo Sueldo { get; set; }
+        //public Sueldo SueldoId { get; set; }
+        //public Sueldo Sueldo { get; set; }
+
+      //  public List<Sueldo> Sueldos { get; set; }
 
 
+       //public int SueldoId { get; set; }
 
+       // public Sueldo Sueldo { get; set; }
 
 
 

@@ -12,8 +12,17 @@ namespace Sistema_contador.Entidad
         public Boolean estado_sueldo { get; set; }
         public DateTime fecha_pago { get; set; }
 
-        public Empleado Empleado { get; set; }
-        public int empleadoId { get; set; }
 
+        // referencia con empleado
+        public Empleado Empleado { get; set; }
+        public int EmpleadoId { get; set; }
+
+
+        // referencia a nomina
+        //public int NominaId { get; set; }
+
+        //public Nomina Nomina { get; set; }
+
+        public List<Nomina> Nominas { get; set; }
     }
 }
